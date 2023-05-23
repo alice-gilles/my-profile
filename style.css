@@ -1,0 +1,110 @@
+CSS
+/* Colors and Fonts */
+
+body  {
+background-color: lightgrey;
+    color: rgb(247, 247, 250);
+font-family: 'Lobster', cursive;
+font-size: 25px;
+line-height: normal;
+}
+
+h1, h2 {
+font-family: 'Ultra', serif;
+    color: #201547;
+
+    font-weight: normal;
+    font-size: 25px;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+a {
+  color: rgb(67, 136, 38);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Customs design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 20%
+}
+
+.btn-green {
+background-color: #E0004D;
+color: white;
+padding: 15px 20px;
+border-radius: 5px;
+}
+
+.btn-green:hover{
+background-color: black;
+color:white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline > li {
+display: inline;
+padding: 0px 20px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: #E0004D;
+}
+.list-inline i:hover {
+color: black;
+}
+
+
+/* Customs design with id */
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+/* Responsive design */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
